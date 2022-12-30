@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.JHzZIWZWRe8ktNbW0jLqmwHaEo?pid=ImgDet &rs=1");
+     
+    
+    background-position: center; background-repeat: no-repeat; background-attachment: fixed;
+    
+    background-size: cover;
+    }
+    
+    /* navbar */ nav{
+    color: red; float: right;
+    margin:20px 20px;
+    }
+    nav ul{
+    list-style: none;
+    }
+    nav ul li { float: left; transition: .1s;
+    }
+    nav ul li a{
+    text-decoration: none; color: green; background: white; transition: .2;
+    font-size: 20px; margin-left:16px;
+    }
+    nav ul li:hover a{
+    text-decoration: none; color: black;
+    }
+    nav ul li:hover{ height: 45px; padding-top: 10px; margin-top: -10px; background: white;
+    text-decoration: none; transform: skew(10deg);
+     
+    }
+    
+    .column { float: left; width: 20%;
+    margin-bottom: 4px; padding: 0 2px; background: white;
+    }
+    
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); margin: 8px;
+    }
+    
+    .container { padding: 0 16px; background: pink;
+    
+    }
+    
+    .container::after, .row::after { content: "";
+    clear: both; display: table;
+    }
+    
